@@ -1,0 +1,14 @@
+
+h1 {
+    font-size: 60px;
+}
+
+.Relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 400px;
+
+}
