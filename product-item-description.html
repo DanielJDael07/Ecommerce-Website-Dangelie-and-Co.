@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="product-item-description.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
     ">
     <title>Product 1</title>
@@ -86,12 +87,27 @@
 <!--Start of Product Content-->  
 <div class="Product-description">
 <div class="container"> 
-    <div class="row align-items-center  ">
-        <div class="col-md-6 ">
-          <img src="img/d1.jpeg" alt="" class="w-100 img-thumbnail " />
+    <div class="row">
+        <div class="col-md-8 ">
+          <img src="img/Product 1/Product 1.jpeg" alt=""  class="img-thumbnail" id="ProductImg" />
+         <div class="row justify-content-evenly mt-3 g-3 ">
+            <div class="col-md-3">
+                <img src="/img/Product 1/Product 1.jpeg" width="100" alt="" class="SmallImg">
+              </div>
+              <div class="col-md-3">
+                <img src="/img/Product 1/Product 2.jpeg" width="100" alt="" class="SmallImg">
+              </div>
+              <div class="col-md-3">
+                <img src="/img/Product 1/Product 3.jpeg"width="100" alt="" class="SmallImg">
+              </div>
+              <div class="col-md-3">
+                <img src="/img/Product 1/Product4.jpeg"width="100" alt="" class="SmallImg">
+              </div>
+         </div> 
+         
         </div>
 
-        <div class="col-md-6 mt-5" class="item-1">
+        <div class="col-md-4 mt-5" class="item-1">
             <div class="card-body">
                 <h1>Long Sleeve Polo Shirt</h1>
                 <p class="h3 py-2">P699.00</p>
@@ -101,10 +117,10 @@
                     <i class="fa fa-star text-warning"></i>
                     <i class="fa fa-star text-warning"></i>
                     <i class="fa fa-star text-secondary"></i>
-                    <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
+                    <span class="list-inline-item text-dark">Rating 4.8</span>
                 </p>
                 <h6>Avaliable Color :</h6>
-                <p class="text-muted"><strong>Yellow</strong></p>
+                <p class="text-muted"><strong>Blue, Red, Gray, Black</strong></p>
                 <h3>Specification:</h3>
                 <p>Style: business</p>
                 <p>Sleeve length: long sleeve</p>
@@ -120,7 +136,7 @@
                 <p>Size: 2XL, Bust: 112cm, Length: 73cm, Shoulder: 48cm</p>
                 <p>Size: 3XL, Bust: 116cm, Length: 75cm, Shoulder: 49.5cm</p>
                     
-                    Product type: Polo Shirts (men’s)</p>
+                    Product type: Polo Shirts (men's)</p>
                 <form action="" method="GET">
                     <input type="hidden" name="product-title" value="Activewear">
                     <div class="row">
@@ -150,10 +166,10 @@
                     </div>
                     <div class="row pb-3">
                         <div class="col d-grid">
-                            <button type="submit" class="btn btn-dark btn-lg" name="submit" value="buy">Buy</button>
+                            <button type="submit" class="btn btn-danger btn-lg" name="submit" value="buy">Buy</button>
                         </div>
                         <div class="col d-grid">
-                            <button type="submit" class="btn btn-dark btn-lg" name="submit" value="addtocard">Add To Cart</button>
+                            <button type="submit" class="btn btn-warning btn-lg" name="submit" value="addtocard">Add To Cart</button>
                         </div>
                     </div>
                 </form>
@@ -164,7 +180,54 @@
 </div>
 </div>
 
-
+<h1 class="text-center m-5">Related Products</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="/img/m1.jpeg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <p class="text-muted text-right">P699.00</p>
+                    <a href="#" class="h2 text-decoration-none text-dark">Lorem ipsum</a>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, omnis possimus repudiandae eveniet veritatis in impedit vel, at sunt sequi enim, itaque distinctio quae laborum. Sed explicabo repellendus nemo tempora.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="/img/n1.jpeg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <p class="text-muted text-right">P699.00</p>
+                    <a href="#" class="h2 text-decoration-none text-dark">Lorem ipsum</a>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, omnis possimus repudiandae eveniet veritatis in impedit vel, at sunt sequi enim, itaque distinctio quae laborum. Sed explicabo repellendus nemo tempora.
+                    </p>
+                </div>
+                </div>
+            </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="/img/n1.jpeg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <p class="text-muted text-right">P699.00</p>
+                    <a href="#" class="h2 text-decoration-none text-dark">Lorem ipsum</a>
+                    <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, omnis possimus repudiandae eveniet veritatis in impedit vel, at sunt sequi enim, itaque distinctio quae laborum. Sed explicabo repellendus nemo tempora.
+                    </p>
+                </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Start of Footer -->
@@ -274,6 +337,13 @@
 
 </footer>
 <!-- End Footer -->
+
+
+<!--JS for product gallery-->
+
+<script src="/product-item-description.js"></script>
+
+
 
 </body>
 <script src="/Bootstrap/js/bootstrap.bundle.js"></script>

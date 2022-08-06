@@ -1,4 +1,21 @@
 
+nav {
+   opacity: 80%;
+}
+
+
+body {
+   background:url(/img/Background4.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+  
+}
+
+section {
+   background:url(/img/Background.webp);
+   background-size: cover;
+   background-attachment: fixed;
+}
 
 
 .Product-description{
@@ -9,4 +26,8 @@ margin-top: 100px;
 #footer{
    background: url(img/blackpattern.jpg);
  
+}
+
+.item-1{
+   margin-top: 1000px;
 }
